@@ -1,1 +1,160 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+h1,h2,h4 {
+  mix-blend-mode: difference;
+  text-shadow: 30px;
+}
+
+body{
+  padding-top: 5rem;
+  background: url('/assets/kitchen2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  image-rendering: -webkit-optimize-contrast;
+  font-family: 'Raleway', sans-serif;
+}
+
+.starter-template{
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.tab-container{
+  height:100%;
+  position: relative;
+}
+
+.color-white * {
+  color: #fff;
+}
+
+.rect-1{
+  -webkit-border-radius: 70px 0 70px 0;
+    -moz-border-radius: 70px 0 70px 0;
+    border-radius: 70px 0 70px 0;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.tab-controller{
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.tab-style-one{
+  padding: 32px 35px;
+}
+
+ul{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+.tab-content{
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.fixed-middle{
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.fixed{
+  position:fixed;
+  left:0;
+  right:0;
+}
+
+.tab-style-one li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.502);
+  display: block;
+  padding: 7px 0 7px 30px;
+  position: relative;
+}
+
+.subscribe-form{
+  padding:0 20px;
+}
+.form-inline{
+  position:relative;
+}
+.form-inline .form-control{
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 230px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border-color: rgb(39, 201, 220);
+  height: 46px;
+}
+.form-inline .btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.btn{
+  text-transform: uppercase;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+  height: 46px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btn-cyan{
+  background-color: rgb(39, 201, 220);
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(39, 201, 220, 0.2);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(39, 201, 220, 0.2);
+  box-shadow: 0px 3px 7px 0px rgba(39, 201, 220, 0.2);
+  color: #fff;
+}
+
+.btn-round{
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.form-heading{
+  text-align: center;
+  margin:10px;
+}
+
+.lead{
+  font-weight: 300px;
+}
