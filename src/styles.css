@@ -15,7 +15,7 @@
 
 h1,h2,h4 {
   mix-blend-mode: difference;
-  text-shadow: 30px;
+  text-shadow: 2px 2px black;
 }
 
 body{
